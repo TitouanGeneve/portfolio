@@ -29,6 +29,7 @@ js/
     script.js
 assets/
     images/
+    pdf/
 README.md
 LICENSE
 .gitignore
