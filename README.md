@@ -30,6 +30,8 @@ js/
 assets/
     images/
     pdf/
+    dsweb/
+    diagram/
 README.md
 LICENSE
 .gitignore
