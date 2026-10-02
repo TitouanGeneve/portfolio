@@ -1,7 +1,29 @@
 body{
+    margin: 0;
     background:linear-gradient(to right, #15213f, #101b35);    
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#particles-js {
+    position: relative;
+    min-height: 100%;
+}
+
+#particles-js canvas {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 0;
+}
+
+main,
+header,
+footer {
+    position: relative;
+    z-index: 1;
 }
 
 /* Header */
@@ -334,9 +356,8 @@ h2{
 }
 
 .contact-link-item:hover {
+    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
     transform: translateY(-3px);
-    border-color: #38BDF8;
-    background: rgba(27, 43, 80, 0.95);
 }
 
 .contact-icon {
@@ -375,6 +396,39 @@ footer a{
     object-fit: contain;
     align-items: left;
 }
+
+/* Scrollup */
+html {
+  scroll-behavior: smooth;
+}
+
+#back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #38BDF8;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  width: 45px;
+  height: 45px;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s, background-color 0.2s;
+  z-index: 1000;
+}
+
+#back-to-top:hover {
+  background-color: #0056b3;
+}
+
+#back-to-top.show {
+  opacity: 1;
+  visibility: visible;
+}
+
 
 /* Média */
 @media screen and (max-width: 800px) {
