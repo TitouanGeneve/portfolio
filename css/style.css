@@ -1,7 +1,7 @@
 body{
     margin: 0;
-    background:linear-gradient(to right, #15213f, #101b35);    
-    color: white;
+    background:linear-gradient(to right, #15213F, #101B35);
+    color: #FFFFFF;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -58,7 +58,7 @@ footer {
 
 .navbutton{
     text-decoration: none;
-    color:white;
+    color: #FFFFFF;
     margin: 0;
     font-size: 20px;
     transition: color 0.3s ease, opacity 0.3s ease;
@@ -80,14 +80,14 @@ footer a:hover,
 }
 
 .présentation{
-    color:white;
+    color:#FFFFFF;
     font-size: 30px;
     text-align: center;
 }
 
 .text-presentation{
     padding: 15px 0;
-    color: #dfeeff;
+    color: #DFEEFF;
     font-size: 18px;
     line-height: 1.7;
 }
@@ -125,11 +125,11 @@ footer a:hover,
     align-items: flex-end;
     min-height: 290px;
     padding: 15px 15px 0;
-    background: linear-gradient(145deg, #15213f, #101b35);
-    border: 1px solid rgba(56, 189, 248, 0.55);
+    background: linear-gradient(145deg, #15213F, #101B35);
+    border: 1px solid #38BDF8;
     border-radius: 18px;
     overflow: hidden;
-    box-shadow: 0 16px 30px rgba(0, 0, 0, 0.18);
+    box-shadow: 0 16px 30px #000000;
 }
 
 .profile-photo {
@@ -141,7 +141,7 @@ footer a:hover,
     object-position: bottom center;
 }
 .présentation span {
-    color: #b1aeae;
+    color: #DFEEFF;
 }
 
 .infos{
@@ -157,7 +157,7 @@ footer a:hover,
     padding: 12px 22px;
     border-radius: 5px;
     background-color: #38BDF8;
-    color: #101b35;
+    color: #101B35;
     font-weight: bold;
     text-decoration: none;
     transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
@@ -165,14 +165,14 @@ footer a:hover,
 
 .cv-button:hover {
     transform: translateY(-3px);
-    background-color: #7dd3fc;
-    box-shadow: 0 8px 18px rgba(56, 189, 248, 0.22);
+    background-color: #DFEEFF;
+    box-shadow: 0 8px 18px #38BDF8;
 }
 
 /* Paragraphes */
 .paragraphe{
-    background-color: #101b35;
-    border: 1px solid rgba(255, 255, 255, 0.08);
+    background-color: #101B35;
+    border: 1px solid #15213F;
     margin-top: 15px;
     border-radius: 15px;
     padding: 20px 20px;
@@ -180,7 +180,7 @@ footer a:hover,
 }
 
 .paragraphe:hover {
-    border-color: rgba(56, 189, 248, 0.45);
+    border-color: #38BDF8;
 }
 
 h2{
@@ -203,8 +203,8 @@ h2{
     min-width: 0;
     padding: 20px;
     box-sizing: border-box;
-    background-color: #15213f;
-    border: 1px solid rgba(56, 189, 248, 0.55);
+    background-color: #15213F;
+    border: 1px solid #38BDF8;
     border-radius: 8px;
     transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
 }
@@ -212,7 +212,7 @@ h2{
 .cases:hover {
     transform: translateY(-4px);
     border-color: #38BDF8;
-    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 8px 18px #000000;
 }
 
 .cases span{
@@ -241,8 +241,8 @@ h2{
 }
 
 .photo {
-    background: #101b35;
-    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: #101B35;
+    border: 1px solid #4B4B4B;
     border-radius: 8px;
     transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
     text-align: center;
@@ -257,7 +257,7 @@ h2{
 .photo:hover {
     transform: translateY(-5px);
     border-color: #38BDF8;
-    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 8px 18px #000000;
 }
 
 .photo img {
@@ -276,9 +276,9 @@ h2{
 
 .contact-form input, .contact-form textarea {
     padding: 0.8rem;
-    background: #15213f;
-    border: 1px solid #4b4b4b;
-    color: white;
+    background: #15213F;
+    border: 1px solid #4B4B4B;
+    color: #FFFFFF;
     border-radius: 5px;
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
@@ -289,7 +289,7 @@ h2{
 .contact-form textarea:focus {
     border-color: #38BDF8;
     outline: none;
-    box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.12);
+    box-shadow: 0 0 0 3px #38BDF826;
 }
 
 .btn-sent {
@@ -305,8 +305,8 @@ h2{
 
 .btn-sent:hover {
     transform: translateY(-3px);
-    background-color: #7dd3fc;
-    box-shadow: 0 8px 18px rgba(56, 189, 248, 0.22);
+    background-color: #DFEEFF;
+    box-shadow: 0 8px 18px #38BDF833;
 }
 
 .contact{
@@ -347,9 +347,9 @@ h2{
     min-height: 40px;
     padding: 8px 10px;
     border-radius: 10px;
-    background: #15213f;
+    background: #15213F;
     border: 1px solid #38BDF8;
-    color: white;
+    color: #FFFFFF;
     font-size: 15px;
     font-weight: 600;
     text-decoration: none;
@@ -368,15 +368,15 @@ h2{
 }
 
 .contact-details {
-    color: #dfeeff;
+    color: #DFEEFF;
     font-size: 15px;
     line-height: 2;
 }
 
 /* Footer */
 footer {
-    background-color: #101b35;
-    border: 1px solid rgba(255, 255, 255, 0.08);
+    background-color: #101B35;
+    border: 1px solid #4B4B4B;
     margin-top: 15px;
     text-align: center;
     padding: 10px 5px;
@@ -384,7 +384,7 @@ footer {
 
 footer a{
     text-decoration: none;
-    color:white;
+    color:#FFFFFF;
     transition: color 0.3s ease;
 }
 
@@ -407,7 +407,7 @@ html {
   bottom: 20px;
   right: 20px;
   background-color: #38BDF8;
-  color: white;
+  color: #FFFFFF;
   border: none;
   border-radius: 15px;
   width: 45px;
@@ -421,7 +421,7 @@ html {
 }
 
 #back-to-top:hover {
-  background-color: #0056b3;
+  background-color: #15213F;
 }
 
 #back-to-top.show {
