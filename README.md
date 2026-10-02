@@ -41,6 +41,17 @@ LICENSE
 
 Le site utilise un fond bleu nuit, des accents bleu clair et des transitions légères sur les éléments interactifs.
 
+Palette de couleurs :
+```
+#15213F
+#101B35
+#38BDF8
+#DFEEFF
+#4B4B4B
+#000000
+#FFFFFF
+```
+
 ## Licence
 
 Ce projet est distribué sous licence MIT. Voir le fichier [LICENSE](LICENSE).

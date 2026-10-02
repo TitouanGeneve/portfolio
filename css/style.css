@@ -358,6 +358,7 @@ h2{
 .contact-link-item:hover {
     transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
     transform: translateY(-3px);
+    box-shadow: 0 16px 30px #000000;
 }
 
 .contact-icon {
