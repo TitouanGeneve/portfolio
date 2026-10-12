@@ -112,6 +112,36 @@
                     </div>
             </section>
         </div>
+        <div class="paragraphe">
+            <section class="github-card">
+                <h2>Github</h2>
+                <div class="stats">
+                    <div>Nombre de dépôts publics : <strong id="repo-count">…</strong></div>
+                    <div>Contributions sur l'année : <strong id="contrib-total">…</strong></div>
+                </div>
+                <div id="graph-status" class="status">Chargement des contributions…</div>
+                <div class="graph-wrap" id="graph-wrap" hidden>
+                    <div class="graph">
+                    <div class="months" id="months"></div>
+                    <div class="contribution">
+                        <div class="days" aria-hidden="true">
+                        <span></span><span>Lun</span><span></span><span>Mer</span><span></span><span>Ven</span><span></span>
+                        </div>
+                        <div class="grid" id="grid" role="img" aria-label="Graphique des contributions GitHub"></div>
+                    </div>
+                    </div>
+                </div>
+                <div class="legend" id="legend" hidden>
+                    <span>Moins</span>
+                    <div class="cell" data-level="0"></div>
+                    <div class="cell" data-level="1"></div>
+                    <div class="cell" data-level="2"></div>
+                    <div class="cell" data-level="3"></div>
+                    <div class="cell" data-level="4"></div>
+                    <span>Plus</span>
+                </div>
+            </section>
+        </div>
         <!-- Photos -->
         <div class="paragraphe">
             <section id="photographie">
